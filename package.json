@@ -1,0 +1,14 @@
+{
+  "name": "self-referenced-json",
+  "version": "0.0.1",
+  "description": "load the json file that is self referenced",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Andy Cui",
+  "license": "ISC"
+}
