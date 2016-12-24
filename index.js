@@ -31,7 +31,7 @@ module.exports = (function () {
             var _literal = literal.trim();
 
             // split and remove empty 
-            var keys = _.filter(_literal.split(/[\.\[\]\"\']/), l => l !== '');
+            var keys = _.filter(_literal.split(/[\.\[\]\"\']/), function (l) { return l !== ''; });
             var resultObj = obj;
 
             for (let i = 0; i < keys.length; i++) {
@@ -63,7 +63,7 @@ module.exports = (function () {
                                 }
                                 resultObj[prop] = literalObj;
                             }
-                            
+
                         } else if (value.indexOf(TOKENS.REFERENCE + TOKENS.BRACKET_LEFT) === 0
                             && value.indexOf(TOKENS.BRACKET_RIGHT) === value.length - 1) {
                             // by reference

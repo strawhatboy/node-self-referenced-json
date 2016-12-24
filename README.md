@@ -1,4 +1,7 @@
 # node-self-referenced-json
+
+[![Build Status](https://travis-ci.org/strawhatboy/node-self-referenced-json.svg?branch=master)](https://travis-ci.org/strawhatboy/node-self-referenced-json)
+
 Load self referenced json to objec
 
 - use $() to add a value reference
