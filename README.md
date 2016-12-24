@@ -84,7 +84,7 @@ SRJson.render('some template here', {
 returns
 ```js
 {
-    propA: { "propInsideA": 20 },
+    propA: { propInsideA: 20 },
     propB: 20
 }
 ```

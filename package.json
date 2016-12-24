@@ -1,6 +1,6 @@
 {
   "name": "self-referenced-json",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "load the json file that is self referenced",
   "repository": {
     "type": "git",
