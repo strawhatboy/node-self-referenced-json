@@ -1,0 +1,18 @@
+{
+    "resources": {
+        "const_int": 500,
+        "some_title_string": "My APP",
+        "size": {
+            "height": 600, "width": 800
+        }
+    },
+    "window": {
+        "help_window": {
+            "size": "$(resources.size)",
+            "title": "$(resources.some_title_string)"
+        }
+    },
+    "texts": {
+        "warning": "windows size should be {{ resources['size'].width }}x{{ resources.size.height }}"
+    }
+}

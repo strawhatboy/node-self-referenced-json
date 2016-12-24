@@ -2,13 +2,27 @@
   "name": "self-referenced-json",
   "version": "0.0.1",
   "description": "load the json file that is self referenced",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strawhatboy/node-self-referenced-json.git"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "./node_modules/.bin/_mocha"
   },
   "keywords": [
-    "json"
+    "json",
+    "template",
+    "templates"
   ],
-  "author": "Andy Cui",
-  "license": "ISC"
+  "author": "strawhat",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  }
 }
