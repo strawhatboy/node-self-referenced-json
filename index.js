@@ -34,8 +34,8 @@ module.exports = (function () {
             var keys = _.filter(_literal.split(/[\.\[\]\"\']/), function (l) { return l !== ''; });
             var resultObj = obj;
 
-            for (let i = 0; i < keys.length; i++) {
-                let key = keys[i];
+            for (var i = 0; i < keys.length; i++) {
+                var key = keys[i];
 
                 if (resultObj !== null && resultObj !== undefined && resultObj.hasOwnProperty(key)) {
                     resultObj = resultObj[key];
@@ -50,7 +50,7 @@ module.exports = (function () {
         function render_object(resultObj, renderObj) {
             for (var prop in resultObj) {
                 if (resultObj.hasOwnProperty(prop)) {
-                    let value = resultObj[prop];
+                    var value = resultObj[prop];
                     if (typeof value === 'string') {
                         value = value.trim();
                         if (value.indexOf(TOKENS.VALUE + TOKENS.BRACKET_LEFT) === 0
