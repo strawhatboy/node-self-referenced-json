@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/strawhatboy/node-self-referenced-json.svg?branch=master)](https://travis-ci.org/strawhatboy/node-self-referenced-json)
 
-Load self referenced json to objec
+Load self referenced json to object
 
 - use $() to add a value reference
 - use &() to add a real object reference
@@ -27,7 +27,7 @@ myTemplate.json
         }
     },
     "texts": {
-        "warning": "windows size should be {{ resources['size'].width }}x{{ resources.size.height] }}"
+        "warning": "windows size should be {{ resources['size'].width }}x{{ resources.size.height }}"
     }
 }
 ```
