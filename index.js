@@ -6,7 +6,6 @@
 *
 */
 
-var Mustache = require('mustache');
 var _ = require('lodash');
 
 var OUTPUT_TYPE = {

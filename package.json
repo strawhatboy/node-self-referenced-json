@@ -1,6 +1,6 @@
 {
   "name": "self-referenced-json",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "load the json file that is self referenced",
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   "author": "strawhat",
   "license": "MIT",
   "dependencies": {
-    "mustache": "^2.3.0",
     "lodash": "^4.17.2"
   },
   "devDependencies": {
